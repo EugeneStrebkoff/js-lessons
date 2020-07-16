@@ -5,3 +5,6 @@ function tempConverter(tempCels) {
 }
 
 tempConverter(tempCels)
+
+let name = 'Василий'
+let admin = name
