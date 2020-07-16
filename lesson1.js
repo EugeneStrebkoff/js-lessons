@@ -8,3 +8,7 @@ tempConverter(tempCels)
 
 let name = 'Василий'
 let admin = name
+
+alert(admin)
+
+alert(1000 + '108') //в данном случае на выходе получим 1000108.
