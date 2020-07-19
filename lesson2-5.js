@@ -16,6 +16,8 @@ function division(a, b) {
     return a / b
 }
 
+//Задание №6
+
 function mathOperation(arg1, arg2, operation){
     switch(operation){
         case 'summation':
