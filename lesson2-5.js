@@ -1,6 +1,6 @@
 //Задание №5
 
-function summ(a, b) {
+function summation(a, b) {
     return  a + b
 }
 
@@ -16,7 +16,19 @@ function division(a, b) {
     return a / b
 }
 
-alert(summ(2, 2))
-alert(subtraction(5, 2))
-alert(multiplication(4, 4))
-alert(division(33, 3))
+function mathOperation(arg1, arg2, operation){
+    switch(operation){
+        case 'summation':
+            alert(summation(arg1, arg2))
+            break
+        case 'subtraction':
+            alert(subtraction(arg1, arg2))
+            break
+        case 'multiplication':
+            alert(multiplication(arg1, arg2))
+            break
+        case 'division':
+            alert(division(arg1, arg2))
+            break
+    }
+}
