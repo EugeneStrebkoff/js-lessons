@@ -7,7 +7,7 @@ let basket = [iphone, samsung, xiaomi, siemens];
 function countBasketPrice(box) {
     box = basket;
     let sum = 0;
-    for (let i = 0; i < box.length; i++){
+    for (let i = 0; i < box.length; i++) {
         sum += box[i];
     }
     return sum;

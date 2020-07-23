@@ -1,7 +1,7 @@
 //Задание №5
 
 function summation(a, b) {
-    return  a + b
+    return a + b
 }
 
 function subtraction(a, b) {
@@ -18,8 +18,8 @@ function division(a, b) {
 
 //Задание №6
 
-function mathOperation(arg1, arg2, operation){
-    switch(operation){
+function mathOperation(arg1, arg2, operation) {
+    switch (operation) {
         case 'summation':
             alert(summation(arg1, arg2))
             break
