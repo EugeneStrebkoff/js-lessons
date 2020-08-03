@@ -32,6 +32,17 @@
     border: 1px solid black;
 }
 .cart{
+    display: none;
     height: 30px;
     border: 1px solid black;
+}
+
+.btn-buy{
+    margin: 0;
+    padding: 4px;
+    border: 1px solid green;
+    background-color: green;
+    color: #fff;
+    border-radius: 2px;
+    text-align: center;
 }
