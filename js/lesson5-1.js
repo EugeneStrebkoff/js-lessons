@@ -11,20 +11,20 @@ function chess() {
             if (i % 2 === 0) {
                 let evenBlock = document.createElement('div');
                 evenBlock.classList.add('even-block');
-                evenBlock.innerHTML = i+alphabet[num];
+                evenBlock.innerHTML = i + alphabet[num];
                 chess.appendChild(evenBlock);
                 let oddBlock = document.createElement('div');
                 oddBlock.classList.add('odd-block');
-                oddBlock.innerHTML = i+alphabet[num+1];
+                oddBlock.innerHTML = i + alphabet[num + 1];
                 chess.appendChild(oddBlock);
             } else {
                 let oddBlock = document.createElement('div');
                 oddBlock.classList.add('odd-block');
-                oddBlock.innerHTML = i+alphabet[num];
+                oddBlock.innerHTML = i + alphabet[num];
                 chess.appendChild(oddBlock);
                 let evenBlock = document.createElement('div');
                 evenBlock.classList.add('even-block');
-                evenBlock.innerHTML = i+alphabet[num+1];
+                evenBlock.innerHTML = i + alphabet[num + 1];
                 chess.appendChild(evenBlock);
             }
         }
