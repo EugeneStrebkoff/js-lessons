@@ -1,7 +1,11 @@
+document.body.onload = printCatalog;
+
+let catalog = [];
 class Product {
     constructor(name, cost) {
         this.name = name;
         this.cost = cost;
+        catalog.push(this);
     }
 }
 
@@ -31,4 +35,13 @@ function addToCart(product) {
 
 function deleteToCart(product) {
     cart.pop(product);
+}
+
+function printCatalog(catalog) {
+    let catalogDiv = document.querySelector('.catalog');
+    catalog.forEach(element => {
+        let productDiv = document.createElement('div');
+        productDiv.innerHTML = `<p>Наименование товара: ${element.name}</p><p>Стоимость товара ${element.cost} руб.`;
+        catalogDiv.appendChild(productDiv);
+    });
 }

@@ -27,3 +27,11 @@
     color: #fff;
     line-height: 50px;
 }
+.catalog{
+    min-height: 30px;
+    border: 1px solid black;
+}
+.cart{
+    height: 30px;
+    border: 1px solid black;
+}
