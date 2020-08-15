@@ -33,7 +33,7 @@
 }
 .cart{
     display: none;
-    height: 30px;
+    min-height: 30px;
     border: 1px solid black;
 }
 
@@ -45,4 +45,8 @@
     color: #fff;
     border-radius: 2px;
     text-align: center;
+}
+
+.prod-in-cart{
+    display: block;
 }
